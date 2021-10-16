@@ -1,0 +1,23 @@
+{
+  "name": "himank-database-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbarve1/himank-database-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbarve1/himank-database-server/issues"
+  },
+  "homepage": "https://github.com/hbarve1/himank-database-server#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
