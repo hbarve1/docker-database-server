@@ -17,3 +17,38 @@ so it becomes difficult to manage all these when you are doing only a developmen
 
 ### Redis
 
+### Mongo
+
+Coming Soon
+
+### Mariadb
+
+Coming Soon
+
+### Influxdb
+
+Coming Soon
+
+### Couchdb
+
+Coming Soon
+
+### Cassandra
+
+Coming Soon
+
+### Neo4j
+
+Coming Soon
+
+### Rethinkdb
+
+Coming Soon
+
+### Orientdb
+
+Coming Soon
+
+### Arangodb
+
+Coming Soon
