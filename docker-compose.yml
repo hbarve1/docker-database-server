@@ -35,7 +35,7 @@ services:
       - $PWD/redis-data:/var/lib/redis
 
   postgres:
-    image: postgres:10.5
+    image: postgres:14.0
     restart: always
     environment:
       - POSTGRES_USER=postgres
