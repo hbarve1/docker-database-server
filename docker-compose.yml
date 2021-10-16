@@ -1,7 +1,8 @@
 version: '3.3'
+
 services:
   mysql:
-    image: mysql:8.0.26
+    image: mysql:5.7.35
     restart: always
     environment:
       MYSQL_DATABASE: 'db'
@@ -19,8 +20,4 @@ services:
       - '3306'
       # Where our data will be persisted
     volumes:
-      - data/mysql:/var/lib/mysql
-
-# Names our volume
-volumes:
-  data/mysql:
+      - ./data-mysql:/var/lib/mysql
