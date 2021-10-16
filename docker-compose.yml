@@ -23,3 +23,10 @@ services:
       # Where our data will be persisted
     volumes:
       - ./data-mysql:/var/lib/mysql
+
+  redis:
+    image: redis:6.2.6
+    expose:
+      - 6379
+    volumes:
+      - $PWD/redis-data:/var/lib/redis
