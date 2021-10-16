@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/hbarve1/himank-database-server#readme",
   "devDependencies": {
+    "nodemon": "^2.0.13",
     "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1",
+    "redis": "^3.1.2"
   }
 }
