@@ -1,4 +1,5 @@
 ./data-mysql
+./data-postgres
 
 .env
 node_modules
