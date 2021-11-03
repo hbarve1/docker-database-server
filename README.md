@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# Himank Database Server
+# Docker Database Server
 
 This repo is for setting multiple databases in one server using Docker & Docker Compose.
 
